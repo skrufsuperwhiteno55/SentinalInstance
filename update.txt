@@ -1,0 +1,6 @@
+# New 
+- Per-account CPU limit
+
+ # Fixed
+- Window position now remembered
+- Update news
