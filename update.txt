@@ -5,4 +5,4 @@
 
 
 # Fixed
-- Small stability improvementse
+- Small stability improvements
