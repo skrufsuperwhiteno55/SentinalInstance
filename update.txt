@@ -1,8 +1,9 @@
 # New
-- Dashboard Mini view: toggle it on to see a live preview of what each running Roblox window is showing, without opening or unhiding it
-- Accounts now say why they stopped: Closed in SentinalInstance, Left the game, or Roblox crashed with the exit / error code
-- A pop-up warns you straight away when an instance crashes on its own
+- Accounts page: **Show all** and **Hide all** buttons next to Play all / Close all. The Show / Hide button on each account is unchanged
+- Settings > Performance > CPU limit for all accounts: set one CPU cap for every account at once (Off, 10, 25, 50 or a custom number). An account's own limit from its menu still wins
+- Mini view now refreshes up to 10 times per second (Settings > Performance > Mini view > Pictures per second)
 
+- Minimising a Roblox window while Mini view is on now keeps its picture live: the window moves off-screen (no taskbar button) and keeps being drawn. Use its Show button to bring it back. Settings > Performance > Mini view > Minimise keeps the picture live turns this off
 
 # Fixed
-- Small stability improvements
+- Mini view keeps taking pictures while SentinalInstance is minimised 
